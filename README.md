@@ -4,7 +4,7 @@
 ![Python](https://img.shields.io/badge/Python-3.12-3776AB?style=for-the-badge&logo=python)
 ![Gemini](https://img.shields.io/badge/Google_Gemini-API-4285F4?style=for-the-badge&logo=google)
 
-This repository contains the software architecture for an autonomous home assistant robot ("Sancho"). The core of this project bridges the gap between high-level natural language reasoning and low-level robotic execution by integrating **Large Language Models (LLMs)** with asynchronous **Behavior Trees** and the **Nav2** autonomous navigation stack.
+This repository contains the software architecture for a **simulated** autonomous home assistant robot ("Sancho"). The core of this project bridges the gap between high-level natural language reasoning and low-level robotic execution by integrating **Large Language Models (LLMs)** with asynchronous **Behavior Trees** and the **Nav2** autonomous navigation stack.
 
 Developed as a Final Degree Project (Trabajo Fin de Grado) in Electronics, Robotics, and Mechatronics Engineering at the University of Málaga (UMA).
 
@@ -26,7 +26,7 @@ The architecture is divided into two mutually exclusive threads to guarantee rea
 ---
 ##  Descripción en Español:
 
-Este repositorio contiene la arquitectura de software para un robot asistente del hogar autónomo ("Sancho"). El núcleo de este proyecto acorta la brecha entre el razonamiento de alto nivel en lenguaje natural y la ejecución robótica de bajo nivel mediante la integración de **Modelos de Lenguaje Grande (LLMs)** con **Árboles de Comportamiento** asíncronos y el *stack* de navegación autónoma **Nav2**.
+Este repositorio contiene la arquitectura de software para un robot asistente del hogar autónomo **simulado** ("Sancho"). El núcleo de este proyecto acorta la brecha entre el razonamiento de alto nivel en lenguaje natural y la ejecución robótica de bajo nivel mediante la integración de **Modelos de Lenguaje Grande (LLMs)** con **Árboles de Comportamiento** asíncronos y el *stack* de navegación autónoma **Nav2**.
 
 Desarrollado como Trabajo Fin de Grado en Ingeniería Electrónica, Robótica y Mecatrónica en la Universidad de Málaga (UMA).
 
