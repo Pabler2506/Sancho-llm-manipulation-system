@@ -18,7 +18,8 @@ class VisionGemini(Node):
         self.ultimo_fallo_tiempo = 0.0  
         self.tiempo_cooldown = 2.0
 
-        self.client = genai.Client(api_key='AIzaSyA9169Rnraup9Kh64xXSHSUID4Jv3HC2wY')
+        # Escribir api key
+        self.client = genai.Client(api_key='Escribir aqui')
         
         # Creamos el suscriptor
         self.sub_camara = self.create_subscription(

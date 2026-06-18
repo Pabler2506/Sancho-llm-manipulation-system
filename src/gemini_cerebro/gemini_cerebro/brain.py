@@ -387,8 +387,8 @@ class CerebroGemini(Node):
         self.get_logger().info("Bienvenido/a, dame un segundo mientras me preparo...")
         
         # Inicializar cliente de Gemini 
-        # export GEMINI_API_KEY="AIzaSyA9169Rnraup9Kh64xXSHSUID4Jv3HC2wY"
-        self.gemini_client = genai.Client(api_key='AIzaSyA9169Rnraup9Kh64xXSHSUID4Jv3HC2wY')
+        # export GEMINI_API_KEY="Escribir valor de la apikey"
+        self.gemini_client = genai.Client(api_key='None')
         
         # Creamos una sesión de chat con memoria con Gemini Flash Lite (Probé con un mejor modelo pero está siempre saturado de usuarios)
         self.chat_session = self.gemini_client.chats.create(
